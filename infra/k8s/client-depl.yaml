@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: client
-        image: us.gcr.io/vibrant-vector-304208/client
+        image: fillout/client
+        # image: us.gcr.io/vibrant-vector-304208/client
 ---
 
 apiVersion: v1

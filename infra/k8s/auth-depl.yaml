@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: auth
-          image: us.gcr.io/vibrant-vector-304208/auth
+          # image: us.gcr.io/vibrant-vector-304208/auth
+          image: fillout/auth
           env: 
             - name: JWT_KEY
               valueFrom:

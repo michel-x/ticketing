@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: payments
-          image: us.gcr.io/vibrant-vector-304208/payments
+          image: fillout/payments
+          # image: us.gcr.io/vibrant-vector-304208/payments
           env: 
             - name: JWT_KEY
               valueFrom:

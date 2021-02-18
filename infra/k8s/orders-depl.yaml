@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: orders
-          image: us.gcr.io/vibrant-vector-304208/orders
+          # image: us.gcr.io/vibrant-vector-304208/orders
+          image: fillout/orders
           env: 
             - name: JWT_KEY
               valueFrom:
